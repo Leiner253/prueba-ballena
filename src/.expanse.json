@@ -1,0 +1,223 @@
+{
+  "entrySpaceId": "b887f87b-be89-45ba-80cc-ddf1edd3024e",
+  "objects": {
+    "0b2a33b7-6cd0-4d0c-a4a0-3573861019d1": {
+      "components": {
+        "35cdf9d4-7acd-45f3-a61b-48bd11bef5da": {
+          "id": "35cdf9d4-7acd-45f3-a61b-48bd11bef5da",
+          "name": "inre-gif",
+          "parameters": {
+            "alphaTest": 0
+          }
+        },
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.75,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "sphere",
+        "radius": 0.5
+      },
+      "id": "0b2a33b7-6cd0-4d0c-a4a0-3573861019d1",
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "roughness": 0.85,
+        "metalness": 0,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Aguacate_gif.gif"
+        },
+        "inreMaterial": "Aguacate_gif"
+      },
+      "name": "Esfera",
+      "order": 0.6857880596614939,
+      "parentId": "6d6069e5-ff4a-4342-bd5a-12c8b1984e42",
+      "position": [
+        -1.863,
+        -2.355,
+        0.368
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.087,
+        1.314,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "5e3a0e91-fa74-4256-925e-009d234e01c4": {
+      "components": {},
+      "geometry": null,
+      "id": "5e3a0e91-fa74-4256-925e-009d234e01c4",
+      "imageTarget": {
+        "name": "cordillera"
+      },
+      "material": null,
+      "name": "Marcador · cordillera",
+      "order": 4.347463621852212,
+      "parentId": "b887f87b-be89-45ba-80cc-ddf1edd3024e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "6d6069e5-ff4a-4342-bd5a-12c8b1984e42": {
+      "components": {
+        "9902e4ee-80d7-41ee-af2c-6ef6c9992223": {
+          "id": "9902e4ee-80d7-41ee-af2c-6ef6c9992223",
+          "name": "inre-material-modelo",
+          "parameters": {}
+        },
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.275,
+            "demora": 0,
+            "esGltf": true,
+            "esTextura": true,
+            "esVideo": false
+          }
+        }
+      },
+      "geometry": null,
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/biowhale-animated.glb"
+        },
+        "animationClip": "Take 001",
+        "loop": true
+      },
+      "id": "6d6069e5-ff4a-4342-bd5a-12c8b1984e42",
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "roughness": 0.85,
+        "metalness": 0,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Whale_Diffuse.png"
+        },
+        "repeatX": 1,
+        "repeatY": -1,
+        "inreMaterial": "Whale"
+      },
+      "name": "biowhale-animated",
+      "order": 0.5037427270304797,
+      "parentId": "5e3a0e91-fa74-4256-925e-009d234e01c4",
+      "position": [
+        0.239,
+        -0.058,
+        1.248
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865475
+      ],
+      "scale": [
+        0.4,
+        0.423,
+        0.4
+      ]
+    },
+    "d5b8b010-2b5e-436c-b2d6-3a45bd1122a6": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.75,
+            "demora": 0.08,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": false
+          }
+        }
+      },
+      "geometry": {
+        "type": "box",
+        "width": 1,
+        "height": 1,
+        "depth": 1
+      },
+      "id": "d5b8b010-2b5e-436c-b2d6-3a45bd1122a6",
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "roughness": 0.85,
+        "metalness": 0,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Whale_Diffuse.png"
+        },
+        "inreMaterial": "Whale_Diffuse"
+      },
+      "name": "Cubo",
+      "order": 1.685788059661494,
+      "parentId": "6d6069e5-ff4a-4342-bd5a-12c8b1984e42",
+      "position": [
+        0.762,
+        -2.235,
+        0.151
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    }
+  },
+  "spaces": {
+    "b887f87b-be89-45ba-80cc-ddf1edd3024e": {
+      "activeCamera": "",
+      "id": "b887f87b-be89-45ba-80cc-ddf1edd3024e",
+      "name": "Espacio principal"
+    }
+  }
+}

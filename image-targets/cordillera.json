@@ -1,0 +1,27 @@
+{
+  "imagePath": "image-targets/cordillera_luminance.png",
+  "resources": {
+    "originalImage": "cordillera_original.png",
+    "croppedImage": "cordillera_cropped.png",
+    "thumbnailImage": "cordillera_thumbnail.png",
+    "luminanceImage": "cordillera_luminance.png"
+  },
+  "name": "cordillera",
+  "type": "PLANAR",
+  "metadata": null,
+  "moveable": false,
+  "physicalWidthInMeters": null,
+  "properties": {
+    "top": 45,
+    "left": 0,
+    "width": 533,
+    "height": 711,
+    "isRotated": true,
+    "originalWidth": 533,
+    "originalHeight": 800
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1795226003041,
+  "updated": 1795226003041
+}
